@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shop Site</title>
+</head>
+<body>
+
+    <h4>Create New Customers</h4>
+    <form method="post" action="{% url 'create_customer' %}">
+        {% csrf_token %}
+        {{ customer_form.as_p }}
+        <button type="submit">Save Customer</button>
+    </form>
+
+    <h4>Create New Products</h4>
+    <form method="post" action="{% url 'create_product' %}">
+        {% csrf_token %}
+        {{ product_form.as_p }}
+        <button type="submit">Save Product</button>
+    </form>
+{#    <form method="post" action="/success">#}
+{#        {% csrf_token %}#}
+{#        <label> Name:#}
+{#            <input type="text" name="firstname">#}
+{#        </label>#}
+{#        <label> Price:#}
+{#            <input type="text" name="lastname">#}
+{#        </label>#}
+{#        <button>Save</button>#}
+{#    </form>#}
+
+
+
+
+    <h4>change price of a given product</h4>
+    <form method="post" action="/success">
+        {% csrf_token %}
+        <label> New Price:
+            <input type="text" name="firstname">
+        </label>
+        <button>Save</button>
+    </form>
+    <h4>add items to shopping basket</h4>
+
+    <h4>mimic purchase</h4>
+    <form method="post" action="/success">
+        {% csrf_token %}
+        <label> Card Number:
+            <input type="text" name="firstname">
+        </label>
+        <label> Transaction Id:
+            <input type="text" name="lastname">
+        </label>
+        <button>Save</button>
+    </form>
+    <h4>display customers orders</h4>
+
+    <h4>display order details</h4>
+</body>
+</html>
+
