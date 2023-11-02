@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa7285fd-9041-4602-a523-f5bcd660928b" name="Changes" comment="initial commit where shop/views file has seperate create_customer and create_product functions.">
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/error_page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/shopping_basket.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5e2712f0-2377-47f0-aab4-0ed245cdca0d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5e2712f0-2377-47f0-aab4-0ed245cdca0d.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/migrations/0002_remove_billingaddress_address.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main.html" afterDir="false" />
-    </list>
+    <list default="true" id="fa7285fd-9041-4602-a523-f5bcd660928b" name="Changes" comment="all shop files updated, models re-migrated, shopping basket is not ready yet" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -138,7 +124,7 @@
       <workItem from="1698835290943" duration="5166000" />
       <workItem from="1698840551223" duration="14452000" />
       <workItem from="1698872101451" duration="2645000" />
-      <workItem from="1698899782797" duration="10781000" />
+      <workItem from="1698899782797" duration="10995000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit where shop/views file has seperate create_customer and create_product functions.">
       <created>1698866775591</created>
@@ -147,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698866775591</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="all shop files updated, models re-migrated, shopping basket is not ready yet">
+      <created>1698914978260</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698914978260</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +159,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit where shop/views file has seperate create_customer and create_product functions." />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit where shop/views file has seperate create_customer and create_product functions." />
+    <MESSAGE value="all shop files updated, models re-migrated, shopping basket is not ready yet" />
+    <option name="LAST_COMMIT_MESSAGE" value="all shop files updated, models re-migrated, shopping basket is not ready yet" />
   </component>
 </project>
