@@ -19,29 +19,31 @@
         {{ product_form.as_p }}
         <button type="submit">Save Product</button>
     </form>
-{#    <form method="post" action="/success">#}
-{#        {% csrf_token %}#}
-{#        <label> Name:#}
-{#            <input type="text" name="firstname">#}
-{#        </label>#}
-{#        <label> Price:#}
-{#            <input type="text" name="lastname">#}
-{#        </label>#}
-{#        <button>Save</button>#}
-{#    </form>#}
 
 
-
-
-    <h4>change price of a given product</h4>
-    <form method="post" action="/success">
+    <h4>Change Price of a Product</h4>
+    <form method="post" action="{% url 'update_price' %}">
         {% csrf_token %}
-        <label> New Price:
-            <input type="text" name="firstname">
-        </label>
-        <button>Save</button>
+        {{ update_price_form.as_p }}
+        <button type="submit">Update</button>
     </form>
+
+
+
     <h4>add items to shopping basket</h4>
+
+    <form method="post" action="{% url 'basket' %}">
+        {% csrf_token %}
+        {{ add_to_basket_form.as_p }}
+        <input type="submit" value="Add to Basket">
+    </form>
+
+
+
+
+
+
+
 
     <h4>mimic purchase</h4>
     <form method="post" action="/success">

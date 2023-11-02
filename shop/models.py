@@ -13,6 +13,7 @@ Order.shippingAddress = models.OneToOneField(Address, on_delete=models.PROTECT)
 
 class BillingAddress(models.Model):
     customer = models.ManyToManyField(Customer)
+    address = models.ManyToManyField(Address)
 
 class OrderPayment(models.Model):
     card_number = models.IntegerField()
@@ -22,13 +23,14 @@ class OrderPayment(models.Model):
 
 class Product(models.Model):
     name = models.CharField(max_length=200)
+    def __str__(self):
+        return "name: " + self.name + ", product ID:" + str(self.pk)
 
 class OrderItem(models.Model):
+    order = models.ForeignKey(Order, on_delete=models.PROTECT, null=True, blank=True, related_name='order_items', related_query_name='order_item')
+    product = models.ForeignKey(Product, on_delete=models.CASCADE)
     price = models.IntegerField()
-    order = models.ManyToManyField(Order)
-    product = models.ManyToManyField(Product)
-
-
-
-
+    def __str__(self):
+        return "name: " + self.product.name + ", product ID:" + str(self.product.pk)
+# Product.item_features = models.ManyToManyField(OrderItem)
 
