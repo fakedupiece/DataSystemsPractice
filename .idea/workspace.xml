@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa7285fd-9041-4602-a523-f5bcd660928b" name="Changes" comment="all shop files updated, models re-migrated, shopping basket is not ready yet" />
+    <list default="true" id="fa7285fd-9041-4602-a523-f5bcd660928b" name="Changes" comment="readme file update">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5e2712f0-2377-47f0-aab4-0ed245cdca0d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5e2712f0-2377-47f0-aab4-0ed245cdca0d.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/models.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +41,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Eduman/PycharmProjects/djangoProject4&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
@@ -125,6 +129,11 @@
       <workItem from="1698840551223" duration="14452000" />
       <workItem from="1698872101451" duration="2645000" />
       <workItem from="1698899782797" duration="10995000" />
+      <workItem from="1698915124450" duration="128000" />
+      <workItem from="1698921037650" duration="3244000" />
+      <workItem from="1698988764069" duration="552000" />
+      <workItem from="1700022892294" duration="3329000" />
+      <workItem from="1700133225145" duration="409000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit where shop/views file has seperate create_customer and create_product functions.">
       <created>1698866775591</created>
@@ -140,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698914978260</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="readme file update">
+      <created>1698915240796</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698915240796</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +176,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit where shop/views file has seperate create_customer and create_product functions." />
     <MESSAGE value="all shop files updated, models re-migrated, shopping basket is not ready yet" />
-    <option name="LAST_COMMIT_MESSAGE" value="all shop files updated, models re-migrated, shopping basket is not ready yet" />
+    <MESSAGE value="readme file update" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme file update" />
   </component>
 </project>
